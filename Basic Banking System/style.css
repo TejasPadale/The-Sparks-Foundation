@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:"Times New Roman", Times, serif;
+}
+#nav-bar
+{
+	background-color:#000000; /* Index  BG color */
+	position:static;
+	top:0;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:#fff;
+}
+.nav-link {
+	font-family:'Times New Roman', serif;
+
+	
+}
+.navbar
+{
+	
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:20px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fc0303 !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#86a0b8;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---banner section--*/
+#main
+{
+	text-align: center;
+	font-weight: bold ;
+
+background-color:#1b5955; /* Index S,P,B BG color */
+color:#ffffff;/* Bank spBank color */
+padding-top:5%;	
+}
+.container h1 {
+	font-family: 'Arvo', serif;
+}
+.container img{ 
+	padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1
+{
+	text-align:center;
+	font-family:'Times New Roman', serif;;
+	
+}
+ #features
+ {
+     text-align: center;
+	 font-family:'Times New Roman', serif;
+	 padding: 5% 15%; background-image:url("bg.jpg");
+
+	
+ }
+ .features1 h3
+{
+	text-shadow: #a13898;
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+	font-family:'Times New Roman', serif;
+}
+#features1 p{
+	font-family: 'Times New Roman', serif;
+	text-align:center;
+	text-shadow: #a13898;
+	font-weight: bold;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+	font-family:'Times New Roman', serif;
+}
+.title::before
+{
+	font-family: 'Garamond', serif;
+	content:'';
+	background:#000000; /* Bank w,y,s c below color */
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	font-family: 'Garamond', serif;
+	content:'';
+	background:#bf0808;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+/* Action*/
+  #action{
+    background-color:#1b5955; /* Bank w,y,s c BG color */
+    padding: 7.5% 15%;
+    text-align: center;
+	font-family: 'Garamond', serif;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+	font-family:'Times New Roman', serif;
+	background-color:#1b5955;/* Bank CR BG color */
+    color:#fff;
+    padding: 3% 25%;
+    text-align: center;
+}
